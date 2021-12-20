@@ -24,7 +24,7 @@ console.log("js ok");
     console.log(myColor);
 
     //crea la password
-    const myPassword = myName + mySecondName + myColor + 21;
+    const myPassword = myName + mySecondName + myColor + "21";
 
     console.log(myPassword);
 
