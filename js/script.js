@@ -24,13 +24,12 @@ console.log("js ok");
     console.log(myColor);
 
     //crea la password
-    const myPassword = myName + mySecondName + myColor;
+    const myPassword = myName + mySecondName + myColor + 21;
 
-    console.log(myPassworld);
+    console.log(myPassword);
 
     //stampa la password
+    document.getElementById("passwordgen").innerHTML= "La tua password è" + " " +  myPassword;
     
-
-
 
 
