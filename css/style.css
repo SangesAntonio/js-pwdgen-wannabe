@@ -1,7 +1,30 @@
-.wrap{
+.col{
     width: 60%;
-    margin: 0 auto;
+    height: auto;
+
+    padding: 15px;
     text-align: center;
-    background-color: rgb(107, 105, 105);
+    background-color: rgb(41, 41, 41);
     color: white;
+    border-radius: 15px;
+}
+
+#passwordgen{
+    text-decoration-line: underline;
+    padding-bottom: 20px;
+    color: green;
+}
+
+body{
+    background-image: url(https://lh3.googleusercontent.com/proxy/OEiVUcuwO4j4kx02_aWUCKLjety2OQXW8vMTUR30Bvi_utrgUvqWkNNle5LIvGVcjCGlOCv-iIHUmd71c9OZqXD8FbG4l85ghA8yNdCfJF7by0uxN-_PT4QdMUazIU0lY1IYqGS2weq9PQ);
+    background-size: cover;
+    height: 100vh;
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
