@@ -1,22 +1,36 @@
-console.log("js ok")
+console.log("js ok");
 
 //generatore passworld
 
 /*Inserire nome
     1: Inserire nome
     2:inserire cognome
-    3:Inserire colore preferito*/
+    3:Inserire colore preferito
+    4:Crea la passworld
+    5:Stampa la password*/
 
     //inserito prompt per il nome
-    const myName = prompt("Il tuo nome?")
-    console.log(myName)
+    const myName = prompt("Il tuo nome?");
+    console.log(myName);
 
     //inserito prompt per il cognome
-    const mySecondName = prompt("Il tuo cognome?")
-    console.log(mySecondName)
+    const mySecondName = prompt("Il tuo cognome?");
+
+    console.log(mySecondName);
 
     //inserito prompt per il colore
-    const myColor = prompt("Il tuo colore preferito?")
-    console.log(myColor)
+    const myColor = prompt("Il tuo colore preferito?");
+
+    console.log(myColor);
+
+    //crea la password
+    const myPassword = myName + mySecondName + myColor;
+
+    console.log(myPassworld);
+
+    //stampa la password
+    
+
+
 
 
